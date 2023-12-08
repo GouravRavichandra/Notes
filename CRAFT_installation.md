@@ -32,5 +32,6 @@ Move inside the project working directory
   - Run all the necessary commands in the ssh window.
     This might show some errors as the scripts are in windows format and not in unix style.
 
-### Using `ddev exec` followed by the command will help us run the code in windows using ddev env.
-### Use `ddev exec php {commad}` to install in ddev. example - `./craft setup/security-key` can be written as `ddev exec php craft setup/security-key`
+### Running commands in the ddev env
+Using `ddev exec` followed by the command will help us run the code in windows using ddev env.
+Use `ddev exec php {commad}` to install in ddev. example - `./craft setup/security-key` can be written as `ddev exec php craft setup/security-key`
